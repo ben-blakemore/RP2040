@@ -43,6 +43,9 @@
 *.pdb
 
 #Pico SDK & build files
-pico/pico_workspace/pico-sdk/*
-pico/pico_workspace/build/*
+pico/pico_workspace/uart/CMakeFiles/*
 pico/pico_workspace/CMakeFiles/*
+pico/pico_workspace/build/*
+*/*/pico-sdk/*
+*/*.make
+*/*.cmake
